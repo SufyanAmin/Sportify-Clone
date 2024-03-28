@@ -1,0 +1,117 @@
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+ }
+
+ nav ul li{
+  padding: 0 12px;
+ }
+
+ .brand img{
+    width: 44px;
+    padding: 0 6px;
+ }
+
+ .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+ }
+
+ .container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 60%;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url(backgro.webp);
+ }
+
+ .bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+ }
+
+ .icons{
+   margin-top: 14px;
+ }
+
+ #myprogessBar{
+    width: 75vw;
+    cursor: pointer;
+ }
+
+ .icons i{
+   cursor: pointer;
+ }
+
+ .songItemContainer{
+   margin-top: 54px;
+ }
+
+ .songItem{
+   height: 40  px;
+   display: flex;
+   background-color: white;
+   color: black;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 34px;
+   margin: 10px 0;
+ }
+
+ .songItem img{
+   width: 35px;
+   height: 35px;
+   margin: 0 23px;
+   border-radius: 50%;
+   overflow: hidden
+ }
+
+ .timesstamp{
+   margin: 0 23px;
+ }
+
+ .timesstamp i{
+   cursor: pointer;
+ }
+
+ .songInfo{
+   position: absolute;
+   left: 12.5vw;
+ }
+
+ .songInfo img{
+   opacity: 0;
+   transition: opacity 1s ease-in;
+ }
